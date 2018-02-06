@@ -1,4 +1,4 @@
 import sys
-
-argv = sys.argv
+def main():
+  argv = sys.argv
 
