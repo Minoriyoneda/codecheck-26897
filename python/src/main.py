@@ -1,2 +1,3 @@
-print ("Hello, world")
-print(input)
+import sys
+
+print('Arguments:', len(sys.argv))
