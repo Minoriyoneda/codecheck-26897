@@ -1,6 +1,14 @@
-import fileinput
-for line in fileinput.input():
-  print line,
+import ys, os, datetime, openpyxl
+for line in sys.stdin:
+  print line
+  eachline = line[:-1].split(",")
+  date = eachline[0]
+  first = eachline[1]
+  second = eachline[2]
+  third = eachline[3]
+  
+ 
+  
 
 
 #import sys
