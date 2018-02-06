@@ -1,3 +1,4 @@
 import sys
 
-print('Arguments:', len(sys.argv))
+argv = sys.argv
+
