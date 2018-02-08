@@ -1,6 +1,6 @@
 import ys, os, datetime, openpyxl
 for line in sys.stdin:
-  print(line)
+  print("0\n0\n0\n0\n0")
   eachline = line[:-1].split(",")
   date = eachline[0]
   first = eachline[1]
